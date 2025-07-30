@@ -17,6 +17,12 @@ void usleep(_int64 usec) {
 	WaitForSingleObj(timer, INFINITY);
 	CloseHandle(timer);
 }
+#endif
+
+float a, b, c;
+
+float cube_width = 20;
+int width = 160, height = 44;
 
 
 
